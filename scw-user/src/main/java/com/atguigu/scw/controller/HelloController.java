@@ -1,4 +1,4 @@
-package com.atguigu.scw.controller;
+﻿package com.atguigu.scw.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -30,5 +30,7 @@ public class HelloController {
 		return new User(500, username, pwd);
 	}
 	
-	
+	public void zxc(){
+		//clone实验
+	}
 }
